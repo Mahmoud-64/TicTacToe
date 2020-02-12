@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.BoxBlur?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="489.0" prefWidth="450.0" style="-fx-background-color: #66ff33;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="108.0" layoutY="30.0" prefHeight="63.0" prefWidth="238.0" text="TIC TAC TOE" textFill="#ff4705">
+         <font>
+            <Font name="System Bold" size="37.0" />
+         </font>
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="TOP" layoutX="101.0" layoutY="98.0" prefHeight="32.0" prefWidth="249.0" text="What is first player name ?">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField layoutX="120.0" layoutY="140.0" prefHeight="25.0" prefWidth="212.0" />
+      <Button layoutX="124.0" layoutY="294.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="87.0" text="Next" />
+      <Button layoutX="240.0" layoutY="294.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="87.0" text="Back" />
+      <Label alignment="CENTER" contentDisplay="TOP" layoutX="103.0" layoutY="190.0" prefHeight="32.0" prefWidth="249.0" text="What is second player name ?">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField layoutX="122.0" layoutY="232.0" prefHeight="25.0" prefWidth="212.0" />
+   </children>
+</Pane>

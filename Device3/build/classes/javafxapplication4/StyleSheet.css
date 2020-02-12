@@ -1,0 +1,76 @@
+.Button-Class{
+   -fx-background-color:deeppink;
+  -fx-font-weight:bold;
+  -fx-background-color:deeppink;
+  -fx-background-radius:22;
+  -fx-font-size:15;
+  -fx-text-fill:white;
+  
+  
+}
+
+
+.Button-Class:hover{
+   -fx-font-weight:bold;
+  -fx-background-color:white;
+  -fx-background-radius:22;
+  -fx-font-size:16;
+  -fx-text-fill:turquoise;
+  -fx-border-color:turquoise;
+  -fx-border-radius:20;
+  -fx-border-width:3;
+}
+
+.Button-Class:pressed{
+   -fx-font-weight:bold;
+  -fx-background-color:white;
+  -fx-background-radius:22;
+  -fx-font-size:16;
+  -fx-text-fill:#2196f3;
+  -fx-border-color:#2196f3;
+  -fx-border-radius:20;
+  -fx-border-width:3;
+  -fx-rotate:7;
+}
+
+.toggle-button1{
+    -fx-base: deeppink;
+    -fx-font-weight:bold;
+    -fx-background-radius:22;
+    -fx-font-size:15;
+    -fx-text-fill:white;;    
+}
+
+.title-label{
+    -fx-text-fill:  white;
+    -fx-font-size:  34;
+    -fx-text-alignment: center;
+    -fx-font-weight: bold;
+    
+    -fx-padding: 0.0 0.0 0.0 0.0;
+    -fx-effect: dropshadow(three-pass-box, deeppink, 20, 0, 0, 0); /*shadow title*/
+    
+    -fx-stroke: red;
+    -fx-text-stroke-width: 2px;
+}
+   
+
+
+.o-Class{
+        -fx-background-color: transparent;
+        -fx-background-image: url(o.jpg);
+}
+
+.x-Class{
+        -fx-background-color: transparent;
+        -fx-background-image: url(x2.png);
+}
+
+.freeCell-Class{
+        -fx-background-color: transparent;
+}
+
+.freeCell-Class:hover{
+        -fx-background-color:rgba(255,0,0,.4);
+        
+}
